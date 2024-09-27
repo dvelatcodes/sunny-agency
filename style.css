@@ -16,13 +16,13 @@ header {
   background-repeat: no-repeat;
   height: 85vh;
   width: 100vw;
-  padding: 2rem 0 0 3rem;
   position: relative;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
+  padding: 2rem 1.5rem 0 3rem;
   width: 100%;
 }
 
@@ -34,14 +34,31 @@ nav {
 .links {
   display: flex;
   width: 30vw;
+  width: fit-content;
   align-items: center;
   column-gap: 3rem;
 }
+
 .links a {
   text-decoration: none;
   color: white;
   font-family: "Barlow", sans-serif;
   font-weight: 600;
+}
+
+.links a:nth-of-type(4) {
+  color: black;
+  font-family: "Fraunces", serif;
+  background-color: white;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.links a:nth-of-type(4):hover {
+  background-color: rgba(255, 255, 255, 0.455);
+  color: white;
 }
 
 .ham {
@@ -59,12 +76,12 @@ h1 {
 }
 
 .arrow {
-    width: fit-content;
-    display: block;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 4rem;
-    margin: auto;
+  width: fit-content;
+  display: block;
+  /* position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 4rem; */
+  margin: auto;
 }
