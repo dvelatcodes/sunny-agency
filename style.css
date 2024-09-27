@@ -65,7 +65,7 @@ nav {
   display: none;
 }
 
-h1 {
+header h1 {
   text-align: center;
   text-transform: uppercase;
   margin-top: 5rem;
@@ -78,10 +78,5 @@ h1 {
 .arrow {
   width: fit-content;
   display: block;
-  /* position: absolute;
-  right: 0;
-  left: 0;
-  top: 0;
-  bottom: 4rem; */
-  margin: auto;
+  margin: 4rem auto 0 auto;
 }
