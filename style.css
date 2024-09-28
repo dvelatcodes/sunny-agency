@@ -90,7 +90,7 @@ header h1 {
 .egg img,
 .cup img {
   width: 50%;
-  height: 45vh;
+  height: 50vh;
 }
 
 .egg div,
@@ -140,4 +140,38 @@ header h1 {
 }
 .cup div button {
   border-color: hsla(7, 99%, 70%, 0.295);
+}
+
+.fruit {
+  display: flex;
+  width: 100vw;
+  height: auto;
+}
+
+.fruit div {
+  width: 50%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  row-gap: 2rem;
+  padding-bottom: 2rem;
+  font-family: "Fraunces", serif;
+}
+
+.fruit div:nth-of-type(1) {
+  background-image: url('./images/desktop/image-graphic-design.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fruit div:nth-of-type(2) {
+  background-image: url('./images/desktop/image-photography.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fruit div h1 {
+  font-size: 1.6rem;
 }
