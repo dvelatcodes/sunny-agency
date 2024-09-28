@@ -39,7 +39,27 @@
 
     .links {
         position: absolute;
-        display: none;
+        /* display: none; */
+        z-index: 5;
+        top: 7rem;
+        right: 0;
+        left: 0;
+        margin: auto;
+        background-color: white;
+        flex-direction: column;
+        column-gap: 0;
+        row-gap: 2rem;
+        padding: 2rem 0 2rem 0;
+        height: auto;
+        width: 80%;
+    }
+
+    .links a:nth-of-type(4) {
+        background-color: hsl(51, 100%, 49%);
+    }
+
+    .links a {
+        color: hsl(232, 10%, 55%);
     }
 
     header h1 {

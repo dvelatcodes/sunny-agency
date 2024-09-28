@@ -33,7 +33,6 @@ nav {
 
 .links {
   display: flex;
-  width: 30vw;
   width: fit-content;
   align-items: center;
   column-gap: 3rem;
