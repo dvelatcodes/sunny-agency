@@ -73,6 +73,11 @@
     background-color: hsl(51, 100%, 49%);
   }
 
+  .links a:nth-of-type(4):hover {
+    background-color:  hsl(51, 100%, 49%);
+    color: black;
+  }
+
   .links a {
     color: hsl(232, 10%, 55%);
   }
