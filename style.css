@@ -79,3 +79,65 @@ header h1 {
   display: block;
   margin: 4rem auto 0 auto;
 }
+
+.egg,
+.cup {
+  width: 100vw;
+  height: 45vh;
+  display: flex;
+}
+
+.egg img,
+.cup img {
+  width: 50%;
+  height: 100%;
+}
+
+.egg div,
+.cup div {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+  row-gap: 2rem;
+  font-family: "Fraunces", serif;
+}
+
+.egg div h1,
+.cup div h1 {
+  font-size: 3rem;
+}
+
+.egg div p,
+.cup div p {
+  width: 65%;
+  color: hsl(232, 10%, 55%);
+}
+
+.egg div button,
+.cup div button {
+  font-weight: 700;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+  font-size: 1rem;
+  width: fit-content;
+  height: fit-content;
+  border-width: 0.4rem;
+  border-radius: 0.2rem;
+  line-height: 0.4rem;
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  padding: 0 0.5rem 0 0.5rem;
+  outline: none;
+}
+
+.egg div button{
+border-color: hsla(55, 100%, 50%, 0.27);
+}
+.cup div button{
+    border-color: hsla(7, 99%, 70%, 0.295);
+    }
