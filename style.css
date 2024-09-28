@@ -195,6 +195,7 @@ header h1 {
   color: hsl(210, 4%, 67%);
   text-transform: uppercase;
   margin-bottom: 3rem;
+  font-family: "Fraunces", serif;
 }
 
 .client {
