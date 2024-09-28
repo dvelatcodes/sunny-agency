@@ -6,12 +6,27 @@
 
 @media screen and (max-width: 768px) {
   header h1 {
-    /* margin-top: 2rem; */
     font-size: 2.7rem;
   }
 
   .arrow {
     margin-top: 0;
+  }
+
+  .egg div,
+  .cup div {
+    padding-left: 3rem;
+  }
+
+  .egg div h1,
+  .cup div h1 {
+    font-size: 2rem;
+    width: 75%;
+  }
+
+  .egg div p,
+  .cup div p {
+    width: 75%;
   }
 }
 
@@ -69,11 +84,55 @@
   .arrow {
     margin-top: 3.5rem;
   }
+
+  .egg {
+    flex-direction: column-reverse;
+  }
+
+  .cup {
+    flex-direction: column;
+  }
+
+  .egg div,
+  .cup div {
+    padding-left: 0;
+    align-items: center;
+  }
+
+  .egg img,
+  .cup img {
+    width: 100%;
+  }
+
+  .egg div,
+  .cup div {
+    width: 100%;
+  }
+
+  .egg div h1,
+  .cup div h1 {
+   text-align: center;
+  }
+
+  .egg div p,
+  .cup div p {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 375px) {
   header h1 {
     font-size: 2rem;
     letter-spacing: 0.2rem;
+  }
+
+  .egg div h1,
+  .cup div h1 {
+    width: 95%;
+  }
+
+  .egg div p,
+  .cup div p {
+    width: 95%;
   }
 }

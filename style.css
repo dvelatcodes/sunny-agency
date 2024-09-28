@@ -83,21 +83,21 @@ header h1 {
 .egg,
 .cup {
   width: 100vw;
-  height: 45vh;
+  height: auto;
   display: flex;
 }
 
 .egg img,
 .cup img {
   width: 50%;
-  height: 100%;
+  height: 45vh;
 }
 
 .egg div,
 .cup div {
   display: flex;
   width: 50%;
-  height: 100%;
+  height: 45vh;
   flex-direction: column;
   justify-content: center;
   padding-left: 5rem;
