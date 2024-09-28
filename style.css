@@ -275,3 +275,36 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+footer{
+    width: 100vw;
+    height: auto;
+    padding: 3rem 0 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+    background-color: hsl(168, 40%, 63%);
+font-family: "Barlow", sans-serif;
+
+}
+
+footer h1 {
+    width: 150px;
+  height: 35px;
+  color: hsl(167, 40%, 24%);
+  font-size: 2.1rem;
+  text-align: center;
+}
+
+footer  div a{
+    text-decoration: none;
+  color: hsl(167, 40%, 24%);
+margin-left: 1.3rem;
+}
+
+footer section img {
+   width: 20px;
+   height: 15px;
+   margin: 1.5rem 0 0 1.5rem;
+}
