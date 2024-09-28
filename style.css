@@ -135,9 +135,9 @@ header h1 {
   outline: none;
 }
 
-.egg div button{
-border-color: hsla(55, 100%, 50%, 0.27);
+.egg div button {
+  border-color: hsla(55, 100%, 50%, 0.27);
 }
-.cup div button{
-    border-color: hsla(7, 99%, 70%, 0.295);
-    }
+.cup div button {
+  border-color: hsla(7, 99%, 70%, 0.295);
+}
