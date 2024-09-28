@@ -1,7 +1,11 @@
+@media screen and (max-width: 1024px) {
+  header {
+    background-size: contain;
+  }
+}
+
 @media screen and (max-width: 768px) {
   header {
-    /* background-image: url("./images/desktop/image-header2.jpg"); */
-    background-size: contain;
     height: 100vh;
   }
 
@@ -16,57 +20,64 @@
 }
 
 @media screen and (max-width: 425px) {
-    header {
-        background-image: url("./images/mobile/image-header.jpg");
-        background-size: cover;
-        height: 80vh;
-      }
+  header {
+    background-image: url("./images/mobile/image-header.jpg");
+    background-size: cover;
+    height: 80vh;
+  }
 
-      nav {
-        padding: 2rem 1.5rem 0 1.2rem;
-      }      
+  nav {
+    padding: 2rem 1.5rem 0 1.2rem;
+  }
 
-    .ham {
-        display: flex;
-        flex-direction: column;
-        row-gap: 0.4rem;
-    }
-    .ham * {
-        width: 8vw;
-        height: 0.19rem;
-        background-color: white;
-    }
+  .ham {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.4rem;
+  }
+  .ham * {
+    width: 8vw;
+    height: 0.19rem;
+    background-color: white;
+  }
 
-    .links {
-        position: absolute;
-        /* display: none; */
-        z-index: 5;
-        top: 7rem;
-        right: 0;
-        left: 0;
-        margin: auto;
-        background-color: white;
-        flex-direction: column;
-        column-gap: 0;
-        row-gap: 2rem;
-        padding: 2rem 0 2rem 0;
-        height: auto;
-        width: 80%;
-    }
+  .links {
+    position: absolute;
+    display: none;
+    z-index: 5;
+    top: 7rem;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: white;
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 2rem;
+    padding: 2rem 0 2rem 0;
+    height: auto;
+    width: 80%;
+  }
 
-    .links a:nth-of-type(4) {
-        background-color: hsl(51, 100%, 49%);
-    }
+  .links a:nth-of-type(4) {
+    background-color: hsl(51, 100%, 49%);
+  }
 
-    .links a {
-        color: hsl(232, 10%, 55%);
-    }
+  .links a {
+    color: hsl(232, 10%, 55%);
+  }
 
+  header h1 {
+    margin-top: 6.7rem;
+  }
+
+  .arrow {
+    margin-top: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
     header h1 {
-        margin-top: 6.7rem;
-    }
-
-    .arrow {
-        margin-top: 3.5rem;
-    }
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+      }
 }
